@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thermostat</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+    <section>
+      <h1 id="temperature">This is your thermostat: </h1>
+      <p>
+        <div>
+          <label for='up'>Do you want to make it hotter?</label>
+            <button id="temperature-up">+</button>
+        </div>
+        <div>
+          <label for='down'>Do you want to make it colder?</label>
+            <button id="temperature-down">-</button>
+        </div>    
+        <div>
+          <button id="temperature-reset">Reset to Default Temperature</button>
+        </div>
+        power saving mode is: <span id="power-saving-status">on</span>
+        <div>
+          <button id="powersaving-on">PSM on</button>
+          <button id="powersaving-off">PSM off</button>
+        </div>
+      </p>
+    </section>
+    <script src="src/thermostat.js"></script>
+    <script src="/Users/joannechen/Projects/thermostat/interface.js" async defer></script>
+  </body>
+</html>
